@@ -3,11 +3,11 @@
     "configurePresets": [{
         "name": "default",
         "binaryDir": "build",
-        "generator": "MinGW Makefiles"
+        "generator": "Ninja"
     }],
     "buildPresets": [{
         "name": "default",
         "configurePreset": "default",
-        "jobs": 64
+        "jobs": 16
     }]
 }
